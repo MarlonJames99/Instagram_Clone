@@ -11,7 +11,7 @@ That's a clone of Instagram's login page made for educational purposes.<br>
 In the same way we do in the original page, we have inputs to sign in with our email, phone or username and our password. It also has the option to create an account, recover your password and download the mobile app from App Store and Google Play.<br> 
 It's obviously a front-end project so we only have the interface, it does not allows you to access any social media.
 
-### Page link:  <br>
+### Page link: https://marlonjames99.github.io/Instagram_Clone/ <br>
 
 ## Tecnologies:
 <div style="display: inline_block">

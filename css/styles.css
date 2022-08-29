@@ -1,0 +1,168 @@
+body {
+  color: #262626;
+  margin: 0;
+  padding: 0;
+  background-color: #FAFAFA;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 935px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 32px;
+  margin: 32px auto 62px;
+}
+
+.pitch {
+  width: 380px;
+  height: 582px;
+  align-self: center;
+  vertical-align: baseline;
+  background: url("/img/phone.png") center no-repeat;
+  background-position: -46px 0;
+}
+.pitch img {
+  position: absolute;
+  top: 60px;
+  left: 360px;
+}
+
+.form {
+  max-width: 350px;
+  margin-top: 15px;
+  text-align: center;
+}
+.form form {
+  margin-bottom: 10px;
+  border: 1px solid #dbdbdb;
+  background-color: #FFFFFF;
+  padding: 20px 40px;
+}
+.form form .logo {
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+.form form input {
+  font-size: 12px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #FAFAFA;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  margin-bottom: 6px;
+  color: #8e8e8e;
+  opacity: 0.9;
+  padding: 12px 8px;
+  height: 36px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+.form form input:focus {
+  border: 1px solid #8e8e8e;
+  outline: 0;
+}
+.form form button {
+  cursor: pointer;
+  font-size: 14px;
+  width: 100%;
+  color: #fff;
+  font-weight: 600;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border-radius: 4px;
+  border: 0;
+  height: 30px;
+  background-color: #0195F6;
+  margin-top: 8px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+.form form button:disabled {
+  background-color: #B2DFFC;
+  cursor: default;
+}
+.form form .separator {
+  color: #8e8e8e;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+  margin: 16px 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.form form .separator::before, .form form .separator::after {
+  content: "";
+  width: 106px;
+  height: 1px;
+  display: block;
+  background-color: #dbdbdb;
+}
+.form form .login-with-facebook {
+  color: #385185;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 13px -4px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.form form .login-with-facebook img {
+  margin-right: 4px;
+}
+.form form .forgot-password {
+  font-size: 12px;
+  color: #00376b;
+}
+.form .signup {
+  font-size: 14px;
+  border: 1px solid #dbdbdb;
+  background-color: #FFFFFF;
+  padding: 6px 0;
+  margin-bottom: 20px;
+}
+.form .signup p {
+  margin: 15px;
+}
+.form .signup a {
+  font-weight: 600;
+  color: #0095f6;
+}
+.form .get-app p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+.form .get-app img {
+  width: 135px;
+}
+.form .get-app .app-store {
+  margin-right: 4px;
+}
+
+.footer {
+  text-align: center;
+  width: 950px;
+  margin: 0 auto 62px;
+  color: #8e8e8e;
+  font-size: 12px;
+}
+.footer .links {
+  margin-bottom: 7px;
+}
+.footer .links a {
+  color: #8e8e8e;
+  display: inline-block;
+  margin: 0 6.5px;
+}
+.footer .copy {
+  margin-top: 18px;
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}/*# sourceMappingURL=styles.css.map */

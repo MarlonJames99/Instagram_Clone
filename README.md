@@ -13,6 +13,8 @@ It's obviously a front-end project so we only have the interface, it does not al
 
 ### Page link: https://marlonjames99.github.io/Instagram_Clone/ <br>
 
+Note: The background image (the phone img) is not showing up in this link because it was set in SCSS not in HTML and Github does not loads it correctly.
+
 ## Tecnologies:
 <div style="display: inline_block">
 <img align="center" alt="HTML logo" height="35" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
